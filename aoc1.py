@@ -1,6 +1,3 @@
-import argparse
-
-
 def aoc1_a(input):
     total = 0
     for x in range(len(input)):
