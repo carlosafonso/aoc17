@@ -1,6 +1,5 @@
 import pytest
-import aoc1_a
-import aoc1_b
+import aoc1
 
 
 @pytest.mark.parametrize("test_input,expected", [
@@ -10,7 +9,7 @@ import aoc1_b
     ("91212129", 9)
 ])
 def test_aoc1_a(test_input, expected):
-    assert expected == aoc1_a.aoc1_a(test_input)
+    assert expected == aoc1.aoc1_a(test_input)
 
 
 @pytest.mark.parametrize("test_input,expected", [
@@ -21,4 +20,4 @@ def test_aoc1_a(test_input, expected):
     ("12131415", 4)
 ])
 def test_aoc1_b(test_input, expected):
-    assert expected == aoc1_b.aoc1_b(test_input)
+    assert expected == aoc1.aoc1_b(test_input)
